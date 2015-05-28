@@ -1,6 +1,6 @@
 # js-module-babel-playground
 
-# setup
+## setup
 run
  1. npm install
  2. gulp
