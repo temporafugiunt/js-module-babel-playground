@@ -1,5 +1,5 @@
 {
-  "name": "Webstorage",
+  "name": "Babel_Playground",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,7 @@
   "license": "ISC",
   "browserify": {
     "transform": [
-      "browserify-shim",
-      "hbsfy"
+      "browserify-shim"
     ]
   },
   "browserify-shim": {
@@ -24,32 +23,12 @@
   },
   "devDependencies": {
     "babelify": "^6.1.2",
-    "browser-sync": "^1.3.7",
     "browserify": "^9.0.4",
     "browserify-shim": "^3.8.2",
     "gulp": "^3.8.7",
-    "gulp-autoprefixer": "^2.0.0",
-    "gulp-cssimport": "^1.3.1",
-    "gulp-filesize": "0.0.6",
-    "gulp-minify-css": "^0.3.13",
-    "gulp-mocha": "^2.0.0",
-    "gulp-notify": "^1.8.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "^1.3.3",
-    "gulp-sourcemaps": "^1.2.8",
-    "gulp-uglify": "^1.0.2",
     "gulp-util": "^3.0.0",
-    "handlebars": "^3.0.1",
-    "hbsfy": "~2.2.1",
-    "mocha": "^2.2.1",
-    "node-bourbon": "^1.2.3",
-    "node-neat": "^1.4.2",
-    "pretty-hrtime": "^0.2.2",
-    "psi": "^1.0.6",
-    "require-dir": "^0.1.0",
-    "through2": "^0.6.5",
-    "vinyl-source-stream": "^0.1.1",
-    "watchify": "^2.6.2"
+    "require-dir": "^0.3.0",
+    "through2": "^0.6.5"
   },
   "dependencies": {
     "jquery": "^1.11.2",
